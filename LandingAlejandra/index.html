@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alejandra García — Abogada profesional especializada en derecho civil, laboral y corporativo. Asesoría legal personalizada con compromiso y excelencia." />
+  <title>Alejandra García | Abogada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-initials">AG</span>
+        <span class="logo-text">Alejandra García</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#proceso" class="nav-link">Mi proceso</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-nav" id="btn-consulta">Consulta gratuita</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Abogada & Asesora Legal
+        </div>
+        <h1 class="hero-title">
+          Tu defensa,<br/>
+          <em class="gradient-text">mi compromiso</em>
+        </h1>
+        <p class="hero-subtitle">
+          Brindo asesoría legal personalizada con más de 8 años de experiencia. 
+          Defiendo tus derechos con dedicación, transparencia y resultados comprobados.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary" id="hero-cta">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Agenda tu consulta
+          </a>
+          <a href="#servicios" class="btn btn-outline" id="hero-services">
+            Ver servicios
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-target="200">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Casos ganados</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">Clientes satisfechos</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="image-frame">
+          <img src="assets/alejandra.png" alt="Alejandra García, Abogada" class="hero-img" id="hero-photo" />
+          <div class="image-glow"></div>
+        </div>
+        <div class="floating-card card-1">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <div>
+            <strong>Caso ganado</strong>
+            <span>Derecho Laboral</span>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          <div>
+            <strong>Respuesta en 24h</strong>
+            <span>Asesoría rápida</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator" id="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE MÍ ===================== -->
+  <section class="about" id="sobre-mi">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col" data-aos="fade-right">
+          <div class="about-image-container">
+            <img src="assets/alejandra.png" alt="Alejandra García" class="about-img" />
+            <div class="about-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <div>
+                <strong>Colegiada N° 4872</strong>
+                <span>Bar Association</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <div class="section-tag">Sobre mí</div>
+          <h2 class="section-title">Una abogada que realmente<br/><em>escucha y actúa</em></h2>
+          <p class="about-text">
+            Soy Alejandra García, abogada graduada con honores de la Universidad Nacional. 
+            Me especializo en brindar soluciones legales integrales, siempre priorizando 
+            el bienestar y los intereses de mis clientes.
+          </p>
+          <p class="about-text">
+            Mi enfoque combina el rigor jurídico con una comunicación clara y humana. 
+            Creo que cada persona merece una defensa de calidad, independientemente de la 
+            complejidad de su caso.
+          </p>
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <span>Atención personalizada 1 a 1</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <span>Honorarios transparentes</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <span>Comunicación continua y clara</span>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <span>Estrategia legal a medida</span>
+            </div>
+          </div>
+          <a href="#contacto" class="btn btn-primary" id="about-cta">Trabajar conmigo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICIOS ===================== -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Servicios</div>
+        <h2 class="section-title">Áreas de <em>práctica legal</em></h2>
+        <p class="section-subtitle">Ofrezco representación y asesoría especializada en múltiples ramas del derecho</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" id="service-civil">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Derecho Civil</h3>
+          <p>Contratos, sucesiones, propiedad e inmuebles. Protejo tus bienes y derechos patrimoniales con eficacia.</p>
+          <ul class="service-list">
+            <li>Contratos y acuerdos</li>
+            <li>Sucesiones y herencias</li>
+            <li>Compraventa de inmuebles</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+        <div class="service-card featured" id="service-laboral">
+          <div class="service-badge-featured">Más solicitado</div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Derecho Laboral</h3>
+          <p>Defensa del trabajador y empleadores. Despidos, liquidaciones, y conflictos laborales resueltos con firmeza.</p>
+          <ul class="service-list">
+            <li>Despidos injustificados</li>
+            <li>Liquidaciones y indemnizaciones</li>
+            <li>Conflictos laborales</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+        <div class="service-card" id="service-familiar">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Derecho de Familia</h3>
+          <p>Divorcios, custodia, alimentos y adopciones. Acompaño a tu familia en momentos difíciles con empatía.</p>
+          <ul class="service-list">
+            <li>Divorcios y separaciones</li>
+            <li>Custodia de menores</li>
+            <li>Cuota alimentaria</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+        <div class="service-card" id="service-penal">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Derecho Penal</h3>
+          <p>Defensa penal especializada. Tu libertad e inocencia son mi prioridad absoluta ante cualquier acusación.</p>
+          <ul class="service-list">
+            <li>Defensa en juicios penales</li>
+            <li>Habeas corpus</li>
+            <li>Recursos y apelaciones</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+        <div class="service-card" id="service-corporativo">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Derecho Corporativo</h3>
+          <p>Constitución de empresas, fusiones, contratos comerciales y cumplimiento normativo empresarial.</p>
+          <ul class="service-list">
+            <li>Constitución de sociedades</li>
+            <li>Contratos comerciales</li>
+            <li>Due diligence</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+        <div class="service-card" id="service-administrativo">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="14 2 14 8 20 8"/><path d="M20 21H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l7 7v11a2 2 0 0 1-2 2z"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3>Derecho Administrativo</h3>
+          <p>Reclamos ante el Estado, licitaciones, licencias y permisos. Navego la burocracia por ti.</p>
+          <ul class="service-list">
+            <li>Reclamos administrativos</li>
+            <li>Habilitaciones y permisos</li>
+            <li>Recursos contencioso-administrativos</li>
+          </ul>
+          <a href="#contacto" class="service-link">Consultar →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESO ===================== -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Mi proceso</div>
+        <h2 class="section-title">Cómo trabajo <em>contigo</em></h2>
+        <p class="section-subtitle">Un proceso claro y transparente para que siempre sepas en qué punto estamos</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Consulta inicial</h3>
+            <p>Primera reunión gratuita donde escucho tu caso, evalúo la situación y te explico las opciones disponibles.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>Estrategia legal</h3>
+            <p>Diseño una estrategia personalizada para tu caso, con objetivos claros, plazos definidos y honorarios transparentes.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Representación activa</h3>
+            <p>Me encargo de todos los trámites, escritos y audiencias. Tú te concentras en tu vida, yo en tu caso.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Seguimiento continuo</h3>
+            <p>Te mantengo informado en cada etapa. Reuniones periódicas y disponibilidad para consultas durante todo el proceso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIOS ===================== -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Testimonios</div>
+        <h2 class="section-title">Lo que dicen mis <em>clientes</em></h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card" id="testimonial-1">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Alejandra fue fundamental en mi caso de divorcio. Su profesionalismo y empatía me dieron seguridad en un momento muy difícil. Logró exactamente lo que necesitaba."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #4f46e5, #c084fc);">MR</div>
+            <div>
+              <strong>María Rodríguez</strong>
+              <span>Derecho de Familia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured-testimonial" id="testimonial-2">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Después de un despido injustificado, Alejandra no solo recuperó mi indemnización completa, sino que lo hizo en tiempo récord. Es increíblemente competente y dedicada."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #ec4899, #f97316);">JP</div>
+            <div>
+              <strong>Juan Pérez</strong>
+              <span>Derecho Laboral</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-3">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Confié a Alejandra la constitución de mi empresa y el proceso fue fluido y transparente. Siempre disponible, siempre con respuestas claras. La recomiendo sin dudarlo."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #0ea5e9, #2dd4bf);">CL</div>
+            <div>
+              <strong>Carla López</strong>
+              <span>Derecho Corporativo</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner">
+    <div class="cta-banner-shapes">
+      <div class="cta-shape-1"></div>
+      <div class="cta-shape-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content">
+        <h2>¿Tienes un problema legal?<br/><em>Hablemos hoy.</em></h2>
+        <p>La primera consulta es completamente gratuita y sin compromiso.<br/>Cuéntame tu caso y encontraremos la mejor solución.</p>
+        <a href="#contacto" class="btn btn-white" id="cta-banner-btn">Consulta gratuita →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Contacto</div>
+        <h2 class="section-title">¿Listo para dar el <em>primer paso</em>?</h2>
+        <p class="section-subtitle">Completa el formulario o contáctame directamente. Te respondo en menos de 24 horas.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <strong>Teléfono</strong>
+              <a href="tel:+5491112345678">+54 9 11 1234-5678</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:contacto@alejandragarcia.com">contacto@alejandragarcia.com</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-whatsapp">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/5491112345678" target="_blank" rel="noopener">Enviar mensaje</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Oficina</strong>
+              <span>Av. Corrientes 1234, Piso 8<br/>Buenos Aires, Argentina</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 0000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="servicio">Área legal</label>
+            <select id="servicio" name="servicio" required>
+              <option value="" disabled selected>Selecciona un área</option>
+              <option value="civil">Derecho Civil</option>
+              <option value="laboral">Derecho Laboral</option>
+              <option value="familiar">Derecho de Familia</option>
+              <option value="penal">Derecho Penal</option>
+              <option value="corporativo">Derecho Corporativo</option>
+              <option value="administrativo">Derecho Administrativo</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Cuéntame tu caso</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe brevemente tu situación legal..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-form">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Enviar mensaje
+          </button>
+          <p class="form-note">✓ Respondo en menos de 24 horas · ✓ Primera consulta sin costo</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="nav-logo">
+            <span class="logo-initials">AG</span>
+            <span class="logo-text">Alejandra García</span>
+          </a>
+          <p>Abogada dedicada a defender tus derechos con excelencia y compromiso. Tu tranquilidad es mi prioridad.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Derecho Civil</a></li>
+            <li><a href="#servicios">Derecho Laboral</a></li>
+            <li><a href="#servicios">Derecho de Familia</a></li>
+            <li><a href="#servicios">Derecho Penal</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proceso">Mi proceso</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Consulta gratuita</h4>
+          <p>Agenda tu primera consulta sin costo ni compromiso.</p>
+          <a href="#contacto" class="btn btn-primary btn-sm" id="footer-cta">Agendar ahora</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Alejandra García · Abogada. Todos los derechos reservados.</p>
+        <p class="footer-disclaimer">Este sitio web tiene fines informativos y no constituye asesoramiento legal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Form success toast -->
+  <div class="toast" id="toast">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    <span>¡Mensaje enviado! Te responderé pronto.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
